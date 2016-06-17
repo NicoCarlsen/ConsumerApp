@@ -1,0 +1,32 @@
+<!--<Alloy>
+<TabGroup id="tabgroup">
+<Tab id="tab0" tabindex="0">
+<Require src="win_search" type="view" id="win_search"></Require>
+</Tab>
+<Tab id="tab1" tabindex="1">
+<Require src="win_vendors" type="view" id="win_vendors"></Require>
+</Tab>
+<Tab id="tab2" tabindex="2">
+<Require src="win_loyalty" type="view" id="win_loyalty"></Require>
+</Tab>
+<Tab id="tab3" tabindex="3">
+<Require src="win_fav" type="view" id="win_fav"></Require>
+</Tab>
+<Tab id="tab4" tabindex="4">
+<Require src="win_orders" type="view" id="win_orders"></Require>
+</Tab>
+</TabGroup>
+</Alloy>-->
+<Alloy>
+	<Widget id="drawer" src="nl.fokkezb.drawer">
+		<Window module="xp.ui" role="leftWindow" id="left_win">
+			<ListView  id="drawer_listview" defaultItemTemplate="itemtemplate_drawer">
+				<Templates>
+					<Require src="listview_templates/itemtemplate_drawer"/>
+				</Templates>
+				<ListSection class="list_section" id="list_section">
+				</ListSection>
+			</ListView>
+		</Window>
+	</Widget>
+</Alloy>

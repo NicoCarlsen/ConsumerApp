@@ -1,0 +1,91 @@
+"#itemtemplate_food":
+{
+	//height: 50,
+	height: 75,
+	width: '100%',
+	backgroundColor: 'transparent',
+	selectionStyle:Titanium.UI.iPhone.ListViewCellSelectionStyle.NONE
+},
+"#img_view":
+{
+	left: 5,
+	height: 55,
+	width: 55
+},
+"#left_parentView":
+{
+	height: 60,
+	left: 65,
+	right: 10,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+},
+"#title_lbl":
+{
+	top: 2,
+	left: 2,
+	color: Alloy.CFG.color.barColor,
+	font:
+	{
+		fontSize: 14,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	right: 0,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+},
+"#subtitle_lbl":
+{
+	top: 2,
+	left: 2,
+	right: 0,
+	color: '#6E6E6A',
+	font:
+	{
+		fontSize: 12,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+},
+
+"#bottom_view":
+{
+	top: 2,
+	left: 2,
+	borderColor: 'red',
+	backgroundColor: 'transparent'
+},
+"#left_lbl":
+{
+	left: 0,
+	font:
+	{
+		fontSize: 10,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	color: '#6E6E6A',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+},
+"#middle_lbl":
+{
+	left: '45%',
+	font:
+	{
+		fontSize: 10,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	color: Alloy.CFG.color.barColor,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+},
+"#right_lbl":
+{
+	right: 0,
+	font:
+	{
+		fontSize: 10,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	color: '#6E6E6A',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+

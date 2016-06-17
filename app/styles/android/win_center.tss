@@ -1,0 +1,83 @@
+"#win_center":
+{
+	navBarHidden: true,
+	fullscreen: false,
+	exitOnClose: true,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+},
+"#logoimage":
+{
+	top: 65,
+	height: 200,
+	width: 300,
+	image: "/images/SFEZLOGO.png"
+},
+"#street_food":
+{
+	text: 'The easy way to order street food',
+	top: 260,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	color: '#6E6E6A',
+	font:
+	{
+		fontSize: 20,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+}
+"#mapmyfood":
+{
+	bottom: 175,
+	left: 10,
+	right: 10,
+	height: 40,
+	backgroundColor: Alloy.CFG.color.barColor,
+	color: "white",
+	title: "MAP MY FOOD",
+	font:
+	{
+		fontSize: 14,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+}
+"#lbl_or":
+{
+	bottom: 140,
+	height: 20,
+	text: "OR",
+	color: '#6E6E6A',
+	font:
+	{
+		fontSize: 14,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+},
+"#bottom_search_postalcode":
+{
+	bottom: 85,
+	height: 40,
+	width: 200,
+	hintText: 'Posatal Code',
+	hintTextColor: "gray",
+	color:Alloy.CFG.color.barColor,
+	backgroundColor: "white",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	font:
+	{
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+}
+"#bottom_search":
+{
+	bottom: 25,
+	width: 150,
+	height: 40,
+	color: "white",
+	backgroundColor: Alloy.CFG.color.barColor,
+	font:
+	{
+		fontSize: 12,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	title: "SEARCH BY LOCATION"
+}

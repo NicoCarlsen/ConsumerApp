@@ -1,0 +1,37 @@
+"#itemtemplate_drawer":
+{
+	height: 40,
+	backgroundColor: Alloy.CFG.color.barColor,
+	selectionStyle: Titanium.UI.iPhone.ListViewCellSelectionStyle.NONE
+},
+"#left_imageview":
+{
+	height: 20,
+	width: 20,
+	left: 10
+},
+"#title_label":
+{
+	left: 45,
+	color: 'white',
+	font: {
+		fontSize: 15,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+},
+"#view_bottom":
+{
+	bottom: 0,
+	left: 10,
+	right: 10,
+	height: 0.5,
+	backgroundColor: 'white'
+},
+"#bottom_view":
+{
+	bottom: 5,
+	height: Titanium.UI.SIZE,
+	left: 50,
+	right: 10,
+	backgroundColor: 'transparent'
+}

@@ -1,0 +1,111 @@
+/*
+That’s good i will introduced you to other team member soon !! 
+If we are mutually understands we will share our portfolio of Titanium app.*/
+
+"#win_center":
+{
+	fullscreen: false,
+	navBarHidden: false,
+	navTintColor: 'white',
+	tintColor: 'white',
+	/*titleAttributes:{
+	color: Alloy.CFG.AppColors_default.color_white,
+	font: {
+	fontSize: Alloy.CFG.FontSize.F19
+	}
+	},*/
+	barColor: Alloy.CFG.color.barColor,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+},
+"#leftnav":
+{
+	backgroundImage: "/images/menu-circular-button.png",
+	height: 32,
+	width: 32
+},
+"#rightnav":
+{
+	backgroundImage: "/images/search.png",
+	height: 32,
+	width: 32
+},
+"#logoimage":
+{
+	top: 15,
+	height: 150,
+	width: 225,
+	image: "/images/SFEZLOGO.png"
+},
+"#street_food":
+{
+	text: 'The easy way to order street food',
+	top: 180,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	color: "white",
+	color: Alloy.CFG.color.label_color,
+	font:
+	{
+		fontSize: 12,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+}
+"#mapmyfood":
+{
+	bottom: 160,
+	left: 10,
+	right: 10,
+	height: 35,
+	backgroundColor: Alloy.CFG.color.barColor,
+	color: "white",
+	title: "MAP MY FOOD",
+	font:
+	{
+		fontSize: 14,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+}
+"#lbl_or":
+{
+	bottom: 130,
+	height: 20,
+	color: "white",
+	text: "OR",
+	color: Alloy.CFG.color.label_color,
+	font:
+	{
+		fontSize: 12,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+},
+"#bottom_search_postalcode":
+{
+	bottom: 85,
+	height: 35,
+	width: 200,
+	hintText: 'Posatal Code',
+	hintTextColor: "gray",
+	color:Alloy.CFG.color.barColor,
+	backgroundColor: "white",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	font:
+	{
+		fontSize: 12,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+}
+"#bottom_search":
+{
+	bottom: 25,
+	width: 150,
+	height: 30,
+	color: "white",
+	backgroundColor: Alloy.CFG.color.barColor,
+
+	font:
+	{
+		fontSize: 12,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	title: "SEARCH BY LOCATION"
+}

@@ -1,0 +1,28 @@
+{
+	"global": {
+		"color": {
+			"backgroundColor": "#D7D6D0",
+			"barColor": "#67C5EB",
+			"label_color": "#5F5E5B"
+		},
+		"font": {
+			"open_sans_bold": "OpenSans-Bold",
+			"open_sans_bold_italic": "OpenSans-BoldItalic",
+			"open_sans_italic": "OpenSans-Italic",
+			"open_sans_semi_bold": "OpenSans-Semibold",
+			"open_sans_regular": "OpenSans",
+			"dubiel_italic": "Dubiel"
+		}
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"os:windows": {},
+	"dependencies": {
+		"nl.fokkezb.drawer": "*",
+		"nl.fokkezb.infiniteScroll": "*"
+	}
+}

@@ -1,0 +1,14 @@
+
+<Alloy>
+	<NavigationWindow id="NavigationWindow">
+		<Window class="container" id="win_orders">
+		<TitleControl platform="ios">
+			<View id="title_view">
+				<ImageView id="logo_image"/>
+			</View>
+		</TitleControl>
+	</Window>
+	</NavigationWindow>
+</Alloy>
+
+

@@ -1,0 +1,7 @@
+"#win_orders":
+{
+	navBarHidden: true,
+	fullscreen: false,
+	exitOnClose: true,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+}

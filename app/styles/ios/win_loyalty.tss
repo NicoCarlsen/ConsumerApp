@@ -1,0 +1,15 @@
+"#win_loyalty":
+{
+	fullscreen: false,
+	navBarHidden: false,
+	navTintColor: 'white',
+	tintColor: 'white',
+	/*titleAttributes:{
+	color: Alloy.CFG.AppColors_default.color_white,
+	font: {
+	fontSize: Alloy.CFG.FontSize.F19
+	}
+	},*/
+	barColor: Alloy.CFG.color.barColor,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+}

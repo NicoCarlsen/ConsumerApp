@@ -1,0 +1,7 @@
+"#win_loyalty":
+{
+	navBarHidden: true,
+	fullscreen: false,
+	exitOnClose: true,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+}

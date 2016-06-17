@@ -1,0 +1,125 @@
+"#win_vendors":
+{
+	fullscreen: false,
+	navBarHidden: false,
+	navTintColor: 'white',
+	tintColor: 'white',
+	/*titleAttributes:{
+	color: Alloy.CFG.AppColors_default.color_white,
+	font: {
+	fontSize: Alloy.CFG.FontSize.F19
+	}
+	},*/
+	barColor: Alloy.CFG.color.barColor,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+},
+"#rightnav_btn":
+{
+	backgroundImage: "/images/menu-circular-button.png",
+	height: 32,
+	width: 32
+},
+
+"#food_listview":
+{
+	top: 120,
+	bottom: 0,
+	left: 0,
+	right: 0
+},
+"#top_scrollable_view":
+{
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 70,
+	borderWidth: 2,
+	backgroundColor: "#164D6A"
+},
+"#middleView":
+{
+	width: '60%',
+	height: 70,
+	borderRadius: 3
+}
+"#imgView_left":
+{
+	left: 10,
+	height: 50,
+	width: 50,
+	image: "/images/arrow/left.png"
+},
+"#imgView_right":
+{
+	right: 10,
+	height: 50,
+	width: 50,
+	image: "/images/arrow/right.png"
+},
+"#middle_optionView":
+{
+	top: 70,
+	height: 50,
+	backgroundColor: 'black'
+},
+
+"#parentView":
+{
+	height: 50,
+	width: 120
+},
+"#leftView":
+{
+	width: 50,
+	height: 40,
+	left: 5
+}
+"#rightView":
+{
+	width: 50,
+	height: 40,
+	right: 5
+},
+"#map_lbl":
+{
+	top: 8,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#57B5E3",
+	font:
+	{
+		fontSize: 15,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	text: 'MAP',
+	bubbleParent: true
+},
+"#line_view1":
+{
+	bottom: 5,
+	width: 20,
+	height: 1,
+	backgroundColor: "#57B5E3",
+	bubbleParent: true
+},
+"#list_lbl":
+{
+	top: 8,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "gray",
+	font:
+	{
+		fontSize: 15,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	text: 'LIST',
+	bubbleParent: true
+},
+"#line_view2":
+{
+	bottom: 5,
+	width: 20,
+	height: 1,
+	backgroundColor: "#57B5E3",
+	bubbleParent: true,
+	visible: false
+},

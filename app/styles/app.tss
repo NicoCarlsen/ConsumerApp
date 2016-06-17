@@ -1,0 +1,37 @@
+"#logo_image[platform=ios]":
+{
+	image: "/images/SFEZLOGO_small.png"
+},
+'TextArea':{
+	backgroundColor: 'white',
+	borderWidth: 0.5,
+	paddingLeft: 5,
+	paddingRight: 5,
+	font: {
+		fontSize: 14,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	},
+	borderColor: 'transparent'
+},
+"ListView[platform=ios]":{
+
+	separatorInsets:
+	{
+		left: 0
+	},
+	selectionStyle: Titanium.UI.iPhone.ListViewCellSelectionStyle.NONE,
+	backgroundSelectedColor: 'trsnaparent',
+	selectedBackgroundColor: 'trsnaparent',
+	separatorStyle: 1,
+	separatorColor: '#6E6E6A',
+	footerTitle: '',
+	showVerticalScrollIndicator: false
+},
+
+"ListView[platform=android]":{
+	backgroundSelectedColor: 'trsnaparent',
+	selectedBackgroundColor: 'trsnaparent',
+	separatorStyle: 1,
+	separatorColor: '#6E6E6A',
+	showVerticalScrollIndicator: false
+},

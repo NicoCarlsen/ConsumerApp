@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="nanBarContainer" platform="android">
+		<Button id="leftBtn"/>
+		<Label id="win_title"/>
+		<ImageView id="logo_image"/>
+		<Button id="rightBtn"/>
+	</View>
+</Alloy>

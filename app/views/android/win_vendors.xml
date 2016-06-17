@@ -1,0 +1,33 @@
+<Alloy>
+	<Window id="win_vendors" module="xp.ui">
+
+		<Require type="view" src="android_header" id="navBar"/>
+		<View id="top_scrollable_view">
+			<View id="top_scrollable_view">
+				<ImageView id="imgView_left"></ImageView>
+				<ImageView id="imgView_right"></ImageView>
+				<View id="middleView">
+					<!-- <ScrollableView id="scrollableView" height="100%" top="5" width="100%" showPagingControl="false"></ScrollableView> -->
+				</View>
+			</View>
+		</View>
+		<View id="middle_optionView">
+				<View id="parentView">
+					<View id="leftView">
+						<Label id="map_lbl"></Label>
+						<View id="line_view1"></View>
+					</View>
+					<View id="rightView">
+						<Label id="list_lbl"></Label>
+						<View id="line_view2"></View>
+					</View>
+				</View>
+			</View>
+		<ListView  id="food_listview" defaultItemTemplate="itemtemplate_food">
+			<Templates>
+				<Require src="listview_templates/itemtemplate_food"/>
+			</Templates>
+			<ListSection id="list_section"></ListSection>
+		</ListView>
+	</Window>
+</Alloy>

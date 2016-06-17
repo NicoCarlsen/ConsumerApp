@@ -1,0 +1,28 @@
+"#itemtemplate_drawer":
+{
+	height: 42,
+	backgroundColor: Alloy.CFG.color.barColor
+},
+"#left_imageview":
+{
+	height: 30,
+	width: 30,
+	left: 10
+},
+"#title_label":
+{
+	left: 50,
+	color: 'white',
+	font: {
+		fontSize: 15,
+		fontFamily: Alloy.CFG.font.open_sans_regular
+	}
+},
+"#view_bottom":
+{
+	bottom: 0,
+	left: 10,
+	right: 10,
+	height: 0.5,
+	backgroundColor: 'white'
+}

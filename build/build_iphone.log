@@ -1,0 +1,471 @@
+
+6/13/2016, 11:21:41 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.8
+
+Titanium SDK
+  SDK Version                 = 5.3.0.GA
+  SDK Path                    = /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/5.3.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/admin/.appcelerator/install/5.3.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.3.0.GA --project-dir /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp --target simulator --ios-version 9.2 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.2 --device-id 36B92A8A-E560-4EF3-83AC-CB7818DEE0A5 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 57684 --username Matt@streetfoodez.com --password OakShire56!! --config-file /var/folders/cw/97thddjs3_5gb9940lgvn0p40000gn/T/build-1465885299712.json --no-banner --project-dir /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 36B92A8A-E560-4EF3-83AC-CB7818DEE0A5
+[TRACE]  [ioslib] Found iOS Simulator UDID 36B92A8A-E560-4EF3-83AC-CB7818DEE0A5
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6s
+[TRACE]  [ioslib]   UDID    = 36B92A8A-E560-4EF3-83AC-CB7818DEE0A5
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2
+[DEBUG]  Detecting modules in /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules
+[DEBUG]  Detected android module: dk.napp.drawer 1.1.4 @ /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/android/dk.napp.drawer/1.1.4
+[DEBUG]  Detected android module: ti.map 2.2.3 @ /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/android/ti.map/2.2.3
+[DEBUG]  Detected iphone module: dk.napp.drawer 1.2.1 @ /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/dk.napp.drawer/1.2.1
+[DEBUG]  Detected iphone module: ti.map 2.5.999 @ /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/ti.map/2.5.999
+[DEBUG]  Detecting modules in /Users/admin/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/admin/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: facebook 5.0.0 @ /Users/admin/Library/Application Support/Titanium/modules/android/facebook/5.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/admin/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/admin/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected android module: ti.map 2.3.6 @ /Users/admin/Library/Application Support/Titanium/modules/android/ti.map/2.3.6
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ /Users/admin/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/admin/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: facebook 5.0.1 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/facebook/5.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.map 2.5.2 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/ti.map/2.5.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.3 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.3
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/admin/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=dk.napp.drawer version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=dk.napp.drawer version=1.2.1 platform=iphone deploy-type=development path=/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/dk.napp.drawer/1.2.1
+[DEBUG]  Looking for Titanium module id=ti.map version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=ti.map version=2.5.999 platform=iphone deploy-type=development path=/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/ti.map/2.5.999
+[DEBUG]  Detecting plugins in /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/plugins/ti.alloy
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[DEBUG]  Titanium SDK iOS directory: /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/5.3.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.2
+[INFO]   Building for iOS Simulator: iPhone 6s
+[DEBUG]  UDID: 36B92A8A-E560-4EF3-83AC-CB7818DEE0A5
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.2
+[INFO]   Building for device family: iphone
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Forcing clean build: /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/build/iphone/build-manifest.json does not exist
+[INFO]   Initializing the build directory
+[DEBUG]  Creating /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/build/iphone
+[INFO]   Found Alloy app in /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/admin/.appcelerator/install/5.3.0/package/node_modules/alloy/bin/alloy compile /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/app --config platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.8.7 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = iphone
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp
+[DEBUG]  app path = /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/app
+[DEBUG]  
+[WARN]   Generated "/i18n" directory is not ignored by Git, please add it to your .gitignore
+[WARN]   Generated "/platform" directory is not ignored by Git, please add it to your .gitignore
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {"nl.fokkezb.drawer":"*","nl.fokkezb.infiniteScroll":"*"}
+[INFO]   [config.json] regenerating CFG.js from config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {
+[DEBUG]  "nl.fokkezb.drawer": "*",
+[DEBUG]  "nl.fokkezb.infiniteScroll": "*"
+[DEBUG]  },
+[DEBUG]  "color": {
+[DEBUG]  "backgroundColor": "#D7D6D0",
+[DEBUG]  "barColor": "#67C5EB",
+[DEBUG]  "label_color": "#5F5E5B"
+[DEBUG]  },
+[DEBUG]  "font": {
+[DEBUG]  "open_sans_bold": "OpenSans-Bold",
+[DEBUG]  "open_sans_bold_italic": "OpenSans-BoldItalic",
+[DEBUG]  "open_sans_italic": "OpenSans-Italic",
+[DEBUG]  "open_sans_semi_bold": "OpenSans-Semibold",
+[DEBUG]  "open_sans_regular": "OpenSans",
+[DEBUG]  "dubiel_italic": "Dubiel"
+[DEBUG]  },
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/admin/.appcelerator/install/5.3.0/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  
+[TRACE]  Generating ../../../../../../Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/admin/.appcelerator/install/5.3.0/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/app/assets
+[TRACE]  Copying SRC_DIR/images/pin/redpin@2x.png --> Resources/iphone/images/pin/redpin@2x.png
+[TRACE]  Copying SRC_DIR/images/pin/redpin.png --> Resources/iphone/images/pin/redpin.png
+[TRACE]  Copying SRC_DIR/images/pin/._redpin.png --> Resources/iphone/images/pin/._redpin.png
+[TRACE]  Copying SRC_DIR/images/drawer/5@2x.png --> Resources/iphone/images/drawer/5@2x.png
+[TRACE]  Copying SRC_DIR/images/drawer/5.png --> Resources/iphone/images/drawer/5.png
+[TRACE]  Copying SRC_DIR/images/drawer/4@2x.png --> Resources/iphone/images/drawer/4@2x.png
+[TRACE]  Copying SRC_DIR/images/drawer/4.png --> Resources/iphone/images/drawer/4.png
+[TRACE]  Copying SRC_DIR/images/drawer/3@2x.png --> Resources/iphone/images/drawer/3@2x.png
+[TRACE]  Copying SRC_DIR/images/drawer/3.png --> Resources/iphone/images/drawer/3.png
+[TRACE]  Copying SRC_DIR/images/drawer/2@2x.png --> Resources/iphone/images/drawer/2@2x.png
+[TRACE]  Copying SRC_DIR/images/drawer/2.png --> Resources/iphone/images/drawer/2.png
+[TRACE]  Copying SRC_DIR/images/drawer/1@2x.png --> Resources/iphone/images/drawer/1@2x.png
+[TRACE]  Copying SRC_DIR/images/drawer/1.png --> Resources/iphone/images/drawer/1.png
+[TRACE]  Copying SRC_DIR/images/drawer/._5.png --> Resources/iphone/images/drawer/._5.png
+[TRACE]  Copying SRC_DIR/images/drawer/._4@2x.png --> Resources/iphone/images/drawer/._4@2x.png
+[TRACE]  Copying SRC_DIR/images/drawer/._4.png --> Resources/iphone/images/drawer/._4.png
+[TRACE]  Copying SRC_DIR/images/drawer/._3.png --> Resources/iphone/images/drawer/._3.png
+[TRACE]  Copying SRC_DIR/images/drawer/._2.png --> Resources/iphone/images/drawer/._2.png
+[TRACE]  Copying SRC_DIR/images/drawer/._1.png --> Resources/iphone/images/drawer/._1.png
+[TRACE]  Copying SRC_DIR/images/arrow/right@2x.png --> Resources/iphone/images/arrow/right@2x.png
+[TRACE]  Copying SRC_DIR/images/arrow/right.png --> Resources/iphone/images/arrow/right.png
+[TRACE]  Copying SRC_DIR/images/arrow/left@2x.png --> Resources/iphone/images/arrow/left@2x.png
+[TRACE]  Copying SRC_DIR/images/arrow/left.png --> Resources/iphone/images/arrow/left.png
+[TRACE]  Copying SRC_DIR/images/arrow/._right.png --> Resources/iphone/images/arrow/._right.png
+[TRACE]  Copying SRC_DIR/images/arrow/._left.png --> Resources/iphone/images/arrow/._left.png
+[TRACE]  Copying SRC_DIR/images/Copy of drawer/Search.png --> Resources/iphone/images/Copy of drawer/Search.png
+[TRACE]  Copying SRC_DIR/images/Copy of drawer/Orders.png --> Resources/iphone/images/Copy of drawer/Orders.png
+[TRACE]  Copying SRC_DIR/images/Copy of drawer/Loyalty.png --> Resources/iphone/images/Copy of drawer/Loyalty.png
+[TRACE]  Copying SRC_DIR/images/Copy of drawer/List.png --> Resources/iphone/images/Copy of drawer/List.png
+[TRACE]  Copying SRC_DIR/images/Copy of drawer/Fav.png --> Resources/iphone/images/Copy of drawer/Fav.png
+[TRACE]  Copying SRC_DIR/images/white-star.png --> Resources/iphone/images/white-star.png
+[TRACE]  Copying SRC_DIR/images/verified.png --> Resources/iphone/images/verified.png
+[TRACE]  Copying SRC_DIR/images/validateQR.png --> Resources/iphone/images/validateQR.png
+[TRACE]  Copying SRC_DIR/images/user.png --> Resources/iphone/images/user.png
+[TRACE]  Copying SRC_DIR/images/trophy.png --> Resources/iphone/images/trophy.png
+[TRACE]  Copying SRC_DIR/images/star.png --> Resources/iphone/images/star.png
+[TRACE]  Copying SRC_DIR/images/silverMedal.png --> Resources/iphone/images/silverMedal.png
+[TRACE]  Copying SRC_DIR/images/silverBadge.png --> Resources/iphone/images/silverBadge.png
+[TRACE]  Copying SRC_DIR/images/shareFacebook.png --> Resources/iphone/images/shareFacebook.png
+[TRACE]  Copying SRC_DIR/images/sfezqr.png --> Resources/iphone/images/sfezqr.png
+[TRACE]  Copying SRC_DIR/images/search@2x.png --> Resources/iphone/images/search@2x.png
+[TRACE]  Copying SRC_DIR/images/search.png --> Resources/iphone/images/search.png
+[TRACE]  Copying SRC_DIR/images/rightbtn@2x.png --> Resources/iphone/images/rightbtn@2x.png
+[TRACE]  Copying SRC_DIR/images/rightbtn.png --> Resources/iphone/images/rightbtn.png
+[TRACE]  Copying SRC_DIR/images/requestQR.png --> Resources/iphone/images/requestQR.png
+[TRACE]  Copying SRC_DIR/images/rankings.png --> Resources/iphone/images/rankings.png
+[TRACE]  Copying SRC_DIR/images/money.png --> Resources/iphone/images/money.png
+[TRACE]  Copying SRC_DIR/images/menu-circular-button.png --> Resources/iphone/images/menu-circular-button.png
+[TRACE]  Copying SRC_DIR/images/loyalty.png --> Resources/iphone/images/loyalty.png
+[TRACE]  Copying SRC_DIR/images/list.png --> Resources/iphone/images/list.png
+[TRACE]  Copying SRC_DIR/images/goldMedal.png --> Resources/iphone/images/goldMedal.png
+[TRACE]  Copying SRC_DIR/images/goldBadge.png --> Resources/iphone/images/goldBadge.png
+[TRACE]  Copying SRC_DIR/images/foodtruck.png --> Resources/iphone/images/foodtruck.png
+[TRACE]  Copying SRC_DIR/images/exit2.png --> Resources/iphone/images/exit2.png
+[TRACE]  Copying SRC_DIR/images/exit.png --> Resources/iphone/images/exit.png
+[TRACE]  Copying SRC_DIR/images/create_review.png --> Resources/iphone/images/create_review.png
+[TRACE]  Copying SRC_DIR/images/close.png --> Resources/iphone/images/close.png
+[TRACE]  Copying SRC_DIR/images/checkin.png --> Resources/iphone/images/checkin.png
+[TRACE]  Copying SRC_DIR/images/check.png --> Resources/iphone/images/check.png
+[TRACE]  Copying SRC_DIR/images/bronzeMedal.png --> Resources/iphone/images/bronzeMedal.png
+[TRACE]  Copying SRC_DIR/images/bronzeBadge.png --> Resources/iphone/images/bronzeBadge.png
+[TRACE]  Copying SRC_DIR/images/badge.xcf --> Resources/iphone/images/badge.xcf
+[TRACE]  Copying SRC_DIR/images/back.png --> Resources/iphone/images/back.png
+[TRACE]  Copying SRC_DIR/images/arrows.png --> Resources/iphone/images/arrows.png
+[TRACE]  Copying SRC_DIR/images/active-search.png --> Resources/iphone/images/active-search.png
+[TRACE]  Copying SRC_DIR/images/WindowbackgroundImage.png --> Resources/iphone/images/WindowbackgroundImage.png
+[TRACE]  Copying SRC_DIR/images/SFEZLOGO_small.png --> Resources/iphone/images/SFEZLOGO_small.png
+[TRACE]  Copying SRC_DIR/images/SFEZLOGO.png --> Resources/iphone/images/SFEZLOGO.png
+[TRACE]  Copying SRC_DIR/images/._user.png --> Resources/iphone/images/._user.png
+[TRACE]  Copying SRC_DIR/images/._star.png --> Resources/iphone/images/._star.png
+[TRACE]  Copying SRC_DIR/images/._menu-circular-button.png --> Resources/iphone/images/._menu-circular-button.png
+[TRACE]  Copying SRC_DIR/images/._list.png --> Resources/iphone/images/._list.png
+[TRACE]  Copying SRC_DIR/images/._active-search.png --> Resources/iphone/images/._active-search.png
+[TRACE]  Copying SRC_DIR/images/._SFEZLOGO_small.png --> Resources/iphone/images/._SFEZLOGO_small.png
+[TRACE]  Copying SRC_DIR/images/._SFEZLOGO.png --> Resources/iphone/images/._SFEZLOGO.png
+[TRACE]  Copying SRC_DIR/fonts/open-sans.regular.ttf --> Resources/iphone/fonts/open-sans.regular.ttf
+[TRACE]  Copying SRC_DIR/fonts/OpenSans-Semibold.ttf --> Resources/iphone/fonts/OpenSans-Semibold.ttf
+[TRACE]  Copying SRC_DIR/fonts/OpenSans-Italic.ttf --> Resources/iphone/fonts/OpenSans-Italic.ttf
+[TRACE]  Copying SRC_DIR/fonts/OpenSans-BoldItalic.ttf --> Resources/iphone/fonts/OpenSans-BoldItalic.ttf
+[TRACE]  Copying SRC_DIR/fonts/OpenSans-Bold.ttf --> Resources/iphone/fonts/OpenSans-Bold.ttf
+[TRACE]  Copying SRC_DIR/fonts/Dubiel.ttf --> Resources/iphone/fonts/Dubiel.ttf
+[TRACE]  Copying SRC_DIR/._.DS_Store --> Resources/iphone/._.DS_Store
+[TRACE]  Copying SRC_DIR/.DS_Store --> Resources/iphone/.DS_Store
+[TRACE]  Copying SRC_DIR/iphone/Default-568h@2x.png --> Resources/iphone/Default-568h@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-667h@2x.png --> Resources/iphone/Default-667h@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Landscape-736h@3x.png --> Resources/iphone/Default-Landscape-736h@3x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Landscape.png --> Resources/iphone/Default-Landscape.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Landscape@2x.png --> Resources/iphone/Default-Landscape@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Portrait-736h@3x.png --> Resources/iphone/Default-Portrait-736h@3x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Portrait.png --> Resources/iphone/Default-Portrait.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Portrait@2x.png --> Resources/iphone/Default-Portrait@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default.png --> Resources/iphone/Default.png
+[TRACE]  Copying SRC_DIR/iphone/Default@2x.png --> Resources/iphone/Default@2x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-60.png --> Resources/iphone/appicon-60.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-60@2x.png --> Resources/iphone/appicon-60@2x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-60@3x.png --> Resources/iphone/appicon-60@3x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-72.png --> Resources/iphone/appicon-72.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-72@2x.png --> Resources/iphone/appicon-72@2x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-76.png --> Resources/iphone/appicon-76.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-76@2x.png --> Resources/iphone/appicon-76@2x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-Small-40.png --> Resources/iphone/appicon-Small-40.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-Small-40@2x.png --> Resources/iphone/appicon-Small-40@2x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-Small-50.png --> Resources/iphone/appicon-Small-50.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-Small-50@2x.png --> Resources/iphone/appicon-Small-50@2x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-Small.png --> Resources/iphone/appicon-Small.png
+[TRACE]  Copying SRC_DIR/iphone/appicon-Small@2x.png --> Resources/iphone/appicon-Small@2x.png
+[TRACE]  Copying SRC_DIR/iphone/appicon.png --> Resources/iphone/appicon.png
+[TRACE]  Copying SRC_DIR/iphone/appicon@2x.png --> Resources/iphone/appicon@2x.png
+[TRACE]  Copying SRC_DIR/iphone/iTunesArtwork --> Resources/iphone/iTunesArtwork
+[TRACE]  Copying SRC_DIR/iphone/iTunesArtwork@2x --> Resources/iphone/iTunesArtwork@2x
+[TRACE]  
+[TRACE]  SRC_DIR=/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/app/lib
+[TRACE]  Copying SRC_DIR/xp.ui.js --> Resources/iphone/xp.ui.js
+[TRACE]  Copying SRC_DIR/xhr.js --> Resources/iphone/xhr.js
+[TRACE]  Copying SRC_DIR/utility.js --> Resources/iphone/utility.js
+[TRACE]  Copying SRC_DIR/indicator_iphone.js --> Resources/iphone/indicator_iphone.js
+[TRACE]  
+[DEBUG]  Resetting /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/platform/ios
+[DEBUG]  
+[DEBUG]  Resetting /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/i18n
+[DEBUG]  Writing /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/i18n/en/strings.xml
+[DEBUG]  Writing /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/i18n/pt-BR/strings.xml
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [app.tss] global style processing...
+[INFO]   [global style] writing to cache...
+[INFO]   [widget.xml] nl.fokkezb.drawer view processing...
+[INFO]   view:       "widget.xml"
+[INFO]   controller: "widget.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/widgets/nl.fokkezb.drawer/controllers/widget.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/widgets/nl.fokkezb.drawer/controllers/widget.js.map"
+[INFO]   created:     "Resources/iphone/alloy/widgets/nl.fokkezb.drawer/styles/widget.js"
+[INFO]   [widget.xml] nl.fokkezb.infiniteScroll view processing...
+[INFO]   style:      "widget.tss"
+[INFO]   view:       "widget.xml"
+[INFO]   controller: "widget.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/widgets/nl.fokkezb.infiniteScroll/controllers/widget.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/widgets/nl.fokkezb.infiniteScroll/controllers/widget.js.map"
+[INFO]   created:     "Resources/iphone/alloy/widgets/nl.fokkezb.infiniteScroll/styles/widget.js"
+[INFO]   [android_header.xml] view processing...
+[INFO]   style:      "android_header.tss"
+[INFO]   view:       "android_header.xml"
+[INFO]   controller: "android_header.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/android_header.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/android_header.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/android_header.js"
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [ios/win_center.xml] view processing...
+[INFO]   style:      "ios/win_center.tss"
+[INFO]   view:       "ios/win_center.xml"
+[WARN]   <Window> at line 3 is using this view's default ID "win_center". Only a top-level element in a view should use the default ID
+[INFO]   controller: "win_center.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/win_center.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/win_center.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/win_center.js"
+[INFO]   [ios/win_fav.xml] view processing...
+[INFO]   style:      "ios/win_fav.tss"
+[INFO]   view:       "ios/win_fav.xml"
+[WARN]   <Window> at line 3 is using this view's default ID "win_fav". Only a top-level element in a view should use the default ID
+[INFO]   controller: "win_fav.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/win_fav.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/win_fav.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/win_fav.js"
+[INFO]   [ios/win_home.xml] view processing...
+[INFO]   style:      "win_home.tss"
+[INFO]   view:       "ios/win_home.xml"
+[INFO]   controller: "win_home.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/win_home.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/win_home.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/win_home.js"
+[INFO]   [ios/win_loyalty.xml] view processing...
+[INFO]   style:      "ios/win_loyalty.tss"
+[INFO]   view:       "ios/win_loyalty.xml"
+[WARN]   <Window> at line 3 is using this view's default ID "win_loyalty". Only a top-level element in a view should use the default ID
+[INFO]   controller: "win_loyalty.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/win_loyalty.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/win_loyalty.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/win_loyalty.js"
+[INFO]   [ios/win_orders.xml] view processing...
+[INFO]   style:      "ios/win_orders.tss"
+[INFO]   view:       "ios/win_orders.xml"
+[WARN]   <Window> at line 3 is using this view's default ID "win_orders". Only a top-level element in a view should use the default ID
+[INFO]   controller: "win_orders.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/win_orders.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/win_orders.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/win_orders.js"
+[INFO]   [ios/win_vendors.xml] view processing...
+[INFO]   style:      "ios/win_vendors.tss"
+[INFO]   view:       "ios/win_vendors.xml"
+[WARN]   <Window> at line 3 is using this view's default ID "win_vendors". Only a top-level element in a view should use the default ID
+[INFO]   controller: "win_vendors.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/win_vendors.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/win_vendors.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/win_vendors.js"
+[INFO]   [listview_templates/itemtemplate_drawer.xml] view processing...
+[INFO]   style:      "ios/listview_templates/itemtemplate_drawer.tss"
+[INFO]   view:       "listview_templates/itemtemplate_drawer.xml"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/listview_templates/itemtemplate_drawer.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/listview_templates/itemtemplate_drawer.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/listview_templates/itemtemplate_drawer.js"
+[INFO]   [listview_templates/itemtemplate_food.xml] view processing...
+[INFO]   style:      "ios/listview_templates/itemtemplate_food.tss"
+[INFO]   view:       "listview_templates/itemtemplate_food.xml"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/listview_templates/itemtemplate_food.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/listview_templates/itemtemplate_food.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/listview_templates/itemtemplate_food.js"
+[INFO]   
+[INFO]   [app.js] Titanium entry point processing...
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/app.js"
+[DEBUG]  map:        "build/map/Resources/iphone/app.js.map"
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/indicator_iphone.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/utility.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/xhr.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/xp.ui.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.drawer/controllers/widget.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.drawer/styles/widget.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.infiniteScroll/controllers/widget.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.infiniteScroll/styles/widget.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [3.09076s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 3.09076s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  offline build file /var/folders/cw/97thddjs3_5gb9940lgvn0p40000gn/T/build-2735a4197d613114a95b16343e8b80a8c647a750.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"matt@streetfoodez.com","session":"2de2499a76d97ea0469124ad84f2f723680dcabc 1CWyojzzVbg6T5Vtpz+fJEZDRiLKfa7+DbxYXBae0bHmkChP4RhzNz999DIun6lhue3LbdfwLMl8/utv+WmRkDu1Nps6PZg2NcwZsO4XHeV3fKpqwudCcIsY1KjUiyNqfXlSatJ5UWUxPdn6uSfvYhlAXS3wBOJrgg3InJp9ma7Gjp703POGRGW0ftwrSJD+823e1bc/QEe73xdyaJGlGFDYeL29HamEc7u+KytcgMNjBdukVdKsF/9W+btw6Ga47jPZlIFG9pMgMpCWnQ5bkbSZ+IVrUu6MpvThrW+jDNDvuqFgSn6sQAggTV86zNRAXZ1X0iIZG4uoxaNyRQ0xgJZsS7StbW3sPnQSkXOzFm44FL/Ya/fRBeYHTOlDMOSTcU89q+6PpuAMup7rKKee1A1zOenW2wT3GNYDD2iOUjRoPhoutXfjM9lzMSzoxS2//KBvJQdQclkBm3g5/MZUCy5u+blqRVx2rmUOEwlPfdmmARMwQzv0G0n9cB5gZYtAu80oFXhhNYl/k8O/7zUwZnsGIOWHCSsc2oHmEazchXRavCR+ffMsSkXNI0DNPct7Sbdhh/jkwPAEegpKgJwrbD5oRjQYYVueAnsp1VBxbquAFp/Tp7exj3d3RQ3Por+F60XWtYeLfhOVY82TM2WWYwps1JfpTBRq6zD+ThxhREPD4kohtTnbPgyJaVKXGCrhHxj/nC4185SNrbp8zY1/wK3oxzzKVamfSCSkx+SEs11J+ZSEY9rSFVujA0GQInWANtv+WuPb6jbLmmxI0pLi5uuyYKpyBa2EDJWn2URZUgI=","ipaddress":"192.168.0.33","fingerprint":"2d414478b7bc753194b5e32f77a8a040f77e75ed","fingerprint_description":"Mac OSX Serial Number: D25LHACKF8JC","guid":"5596c0b8-3746-4222-9fff-58c52f5403a2","appid":"com.demo.alloyappcelerator","name":"AlloyConsumerApp","org_id":100029240,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.demo.alloyappcelerator</id>\n  <name>AlloyConsumerApp</name>\n  <version>1.0</version>\n  <publisher>JAYESH</publisher>\n  <url>http://</url>\n  <description>SKYPE : JAYESH.JOSHI91</description>\n  <copyright>2015 by JJ</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>5596c0b8-3746-4222-9fff-58c52f5403a2</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>NSLocationWhenInUseUsageDescription</key>\n        <string>Test NSLocationWhenInUseUsageDescription</string>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <manifest android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.demo.alloyappcelerator\" \n      xmlns:android=\"http://schemas.android.com/apk/res/android\">\n      <uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\"/>\n      <application android:debuggable=\"false\" android:icon=\"@drawable/appicon\" android:label=\"AlloyConsumerApp\" android:name=\"AlloyconsumerappApplication\" android:theme=\"@style/Theme.AppCompat.NoTitleBar\">\n        <activity android:configChanges=\"keyboardHidden|orientation|screenSize\" android:label=\"@string/app_name\" android:name=\".AlloyconsumerappActivity\" android:theme=\"@style/Theme.Titanium\">\n          <intent-filter>\n            <action android:name=\"android.intent.action.MAIN\"/>\n            <category android:name=\"android.intent.category.LAUNCHER\"/>\n          </intent-filter>\n        </activity>\n        <activity android:configChanges=\"keyboardHidden|orientation|screenSize\" android:name=\"org.appcelerator.titanium.TiActivity\"/>\n        <activity android:configChanges=\"keyboardHidden|orientation|screenSize\" android:name=\"org.appcelerator.titanium.TiTranslucentActivity\" android:theme=\"@style/Theme.AppCompat.Translucent\"/>\n        <activity android:configChanges=\"screenSize\" android:name=\"ti.modules.titanium.ui.android.TiPreferencesActivity\"/>\n        <service android:exported=\"false\" android:name=\"com.appcelerator.analytics.APSAnalyticsService\"/>\n        <meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyAOHCdIGNvALaI3qg4uPuVeioEYUt3f9xA\"/>\n      </application>\n      <uses-permission android:name=\"android.permission.INTERNET\"/>\n      <uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>\n      <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>\n      <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>\n      <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>\n      <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>\n      <uses-permission android:name=\"android.permission.ACCESS_MOCK_LOCATION\"/>\n    </manifest>\n  </android>\n  <mobileweb>\n    <precache/>\n    <splash>\n      <enabled>true</enabled>\n      <inline-css-images>true</inline-css-images>\n    </splash>\n    <theme>default</theme>\n  </mobileweb>\n  <modules>\n    <module platform=\"android\" version=\"1.1.7\">dk.napp.drawer</module>\n    <module platform=\"iphone\">dk.napp.drawer</module>\n    <module platform=\"iphone\">ti.map</module>\n    <module platform=\"android\" version=\"2.2.3\">ti.map</module>\n  </modules>\n  <deployment-targets>\n    <target device=\"mobileweb\">false</target>\n    <target device=\"ipad\">false</target>\n    <target device=\"android\">true</target>\n    <target device=\"iphone\">true</target>\n  </deployment-targets>\n  <sdk-version>5.3.0.GA</sdk-version>\n  <plugins>\n    <plugin version=\"1.0\">ti.alloy</plugin>\n  </plugins>\n  <property name=\"appc-app-id\" type=\"string\">55b7b5ef1cdd7f9c6ddc52de</property>\n</ti:app>","modules":[{"id":"dk.napp.drawer","platform":["iphone"],"deployType":["development"],"modulePath":"/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/dk.napp.drawer/1.2.1","version":"1.2.1","manifest":{"version":"1.2.1","apiversion":"2","architectures":"armv7 i386 x86_64 arm64","description":"Drawer controller","author":"Mads Møller","license":"MIT","copyright":"Napp ApS","name":"NappDrawer","moduleid":"dk.napp.drawer","guid":"2a446559-1d59-4808-aefc-7d02d3130ebb","platform":"iphone","minsdk":"3.4.1.GA"},"native":true,"libName":"libdk.napp.drawer.a","libFile":"/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/dk.napp.drawer/1.2.1/libdk.napp.drawer.a","hash":"c506f5ad29e68d2113fad09560653cd6"},{"id":"ti.map","platform":["iphone"],"deployType":["development"],"modulePath":"/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/ti.map/2.5.999","version":"2.5.999","manifest":{"version":"2.5.999","apiversion":"2","architectures":"armv7 arm64 i386 x86_64","description":"External version of Map module","author":"Jeff Haynie, Jon Alter, & Pedro Enrique","license":"Apache Public License v2","copyright":"Copyright (c) 2013-2015 by Appcelerator, Inc.","name":"map","moduleid":"ti.map","guid":"fee93b77-8eb3-418c-8f04-013664c4af83","platform":"iphone","minsdk":"5.0.0.GA"},"native":true,"libName":"libti.map.a","libFile":"/Volumes/DATA/Work/Food/Matt/AlloyConsumerApp/modules/iphone/ti.map/2.5.999/libti.map.a","hash":"88553063ecc6badb8ba2dd8e9a90eeb5"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"success":false,"error":"Application not registered.","code":"com.appcelerator.not.registered"}, err=null

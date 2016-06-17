@@ -1,0 +1,24 @@
+
+6/14/2016, 12:05:19 AM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.8
+
+Titanium SDK
+  SDK Version                 = 5.1.2.GA
+  SDK Path                    = /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/5.1.2.GA
+  Target Platform             = android
+
+Command
+  /usr/local/bin/node /Users/admin/.appcelerator/install/5.3.0/package/node_modules/titanium/lib/titanium.js build run --platform android --log-level trace --sdk 5.1.2.GA --project-dir /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp --target device --android-sdk /Users/admin/Library/Android/sdk --device-id a1019765 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 57684 --username Matt@streetfoodez.com --password OakShire56!! --config-file /var/folders/cw/97thddjs3_5gb9940lgvn0p40000gn/T/build-1465887915614.json --no-banner --project-dir /Volumes/DATA/Work/Food/Matt/AlloyConsumerApp

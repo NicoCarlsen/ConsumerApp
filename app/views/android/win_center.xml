@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="win_center" module="xp.ui">
+		
+		<Require type="view" src="android_header" id="navBar"/>
+		
+		<ImageView id="logoimage"/>
+		
+		<Label id="street_food">The easy way to order street food</Label>
+		
+		<Button id="mapmyfood"/>
+		
+		<Label id="lbl_or">OR</Label>
+		
+		<TextField id="bottom_search_postalcode"/>
+		
+		<Button id="bottom_search"/>
+	</Window>
+</Alloy>

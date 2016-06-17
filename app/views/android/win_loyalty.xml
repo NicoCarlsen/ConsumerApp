@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="win_loyalty" module="xp.ui">
+		<Require type="view" src="android_header" id="navBar"/>
+	</Window>
+</Alloy>

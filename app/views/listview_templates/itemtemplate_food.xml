@@ -1,0 +1,20 @@
+<Alloy>
+	<ItemTemplate id="itemtemplate_food" name="itemtemplate_food">
+		<!-- <View id="left_parent_view" bindId="left_parent_view">
+		<View id="left_child_view" bindId="left_child_view"/>
+		</View>
+		<Label id="title_lbl" bindId="title_lbl"/>
+		<Label id="desc_lbl" bindId="desc_lbl"/>
+		<Label id="info_lbl" bindId="info_lbl"/> -->
+		<ImageView id="img_view" bindId="left_imageview"/>
+		<View id="left_parentView">
+			<Label id="title_lbl" bindId="title_lbl"></Label>
+			<Label id="subtitle_lbl" bindId="subtitle_lbl"></Label>
+			<View id="bottom_view">
+				<Label id="left_lbl" bindId="left_lbl"></Label>
+				<Label id="middle_lbl" bindId="middle_lbl"></Label>
+				<Label id="right_lbl" bindId="right_lbl"></Label>
+			</View>
+		</View>
+	</ItemTemplate>
+</Alloy>

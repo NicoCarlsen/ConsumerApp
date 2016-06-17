@@ -1,0 +1,72 @@
+<Alloy>
+	<NavigationWindow id="NavigationWindow">
+		<Window class="container" id="win_vendors">
+			<LeftNavButton platform="ios">
+				<Button id="rightnav_btn" onClick="toggleDrawerLeft"/>
+			</LeftNavButton>
+			<TitleControl platform="ios">
+				<View id="title_view">
+					<ImageView id="logo_image"/>
+				</View>
+			</TitleControl>
+			<View id="top_scrollable_view">
+				<ImageView id="imgView_left"></ImageView>
+				<ImageView id="imgView_right"></ImageView>
+				<View id="middleView">
+					<ScrollableView id="scrollableView" height="100%" top="5" width="100%" showPagingControl="false"></ScrollableView>
+				</View>
+
+			</View>
+			<View id="middle_optionView">
+				<View id="parentView">
+					<View id="leftView">
+						<Label id="map_lbl"></Label>
+						<View id="line_view1"></View>
+					</View>
+					<View id="rightView">
+						<Label id="list_lbl"></Label>
+						<View id="line_view2"></View>
+					</View>
+				</View>
+			</View>
+			<ListView  id="food_listview" defaultItemTemplate="itemtemplate_food">
+				<Templates>
+					<Require src="listview_templates/itemtemplate_food"/>
+				</Templates>
+				<ListSection id="list_section"></ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
+<!--
+<Alloy>
+<NavigationWindow id="NavigationWindow">
+<Window id="win_atendimento">
+<LeftNavButton>
+<Button id="leftnav_btn" onClick="toggleDrawerLeft"/>
+</LeftNavButton>
+<ScrollView id="main_scroll1">
+<View id="container_view_top1">
+<Label id="title_lbl"/>
+<Label id="desc_lbl"/>
+<View id="button_view">
+<Button id="faq_button" onClick="open_faq"/>
+<View id="drop_view1">
+<ImageView id="img1"/>
+</View>
+</View>
+<Label id="title_lbl_middle"/>
+<View id="dropdown_view">
+<TextField id="txt_sub"/>
+<View id="drop_view">
+<ImageView id="img"/>
+</View>
+</View>
+<TextArea id="add_description_txt_area"/>
+<Button id="button_send" onClick="send_message"/>
+<View id="fake_view"/>
+</View>
+</ScrollView>
+</Window>>
+</NavigationWindow>
+</Alloy> -->

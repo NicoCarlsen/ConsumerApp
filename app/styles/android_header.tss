@@ -1,0 +1,37 @@
+"#nanBarContainer":{
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 45,
+	backgroundColor: Alloy.CFG.color.barColor
+},
+"#win_title":
+{
+	textAlign: 'center',
+	color: 'black',
+	font: {
+		fontSize: 19,
+		fontWeight: "normal"
+	}
+},
+"#leftBtn":
+{
+	left: 10,
+	width: 30,
+	height: 30
+},
+"#rightBtn":
+{
+	right: 8,
+	color: 'black',
+	font: {
+		fontSize: 15,
+		fontWeight: "normal"
+	}
+},
+"#logo_image":
+{
+	image: "/images/SFEZLOGO_small.png",
+	width: 53,
+	height: 35
+},

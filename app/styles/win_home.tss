@@ -1,0 +1,48 @@
+/*"#tab0":
+{
+title: "Search",
+icon: "/images/tabsicons/Search.png"
+},
+"#tab1":
+{
+title: "Venodr List",
+icon: "/images/tabsicons/List.png"
+},
+"#tab2":
+{
+title: 'Loyalty',
+icon: "/images/tabsicons/Loyalty.png"
+},
+"#tab3":
+{
+title: "Favourites",
+icon: "/images/tabsicons/Fav.png"
+},
+"#tab4":
+{
+title: "Orders",
+icon: "/images/tabsicons/Orders.png"
+}*/
+
+"#left_win[platform=ios]":
+{
+	fullscreen: false,
+	navBarHidden: false,
+	navTintColor: 'white',
+	tintColor: 'white',
+	/*titleAttributes:{
+	color: Alloy.CFG.AppColors_default.color_white,
+	font: {
+	fontSize: Alloy.CFG.FontSize.F19
+	}
+	},*/
+	barColor: Alloy.CFG.color.barColor,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+},
+"#left_win[platform=android]":
+{
+	avBarHidden: true,
+	fullscreen: false,
+	exitOnClose: true,
+	backgroundImage: "/images/WindowbackgroundImage.png"
+},

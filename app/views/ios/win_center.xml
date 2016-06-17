@@ -1,0 +1,23 @@
+<Alloy>
+	<NavigationWindow id="NavigationWindow">
+		<Window id="win_center" module="xp.ui">
+			<LeftNavButton platform="ios">
+				<Button id="leftnav" onClick="toggleDrawerLeft"/>
+			</LeftNavButton>
+			<LeftNavButton platform="ios">
+				<Button id="rightnav" onClick="showSearch"/>
+			</LeftNavButton>
+			<TitleControl platform="ios" left="100" right="100">
+				<View id="title_view">
+					<ImageView id="logo_image"/>
+				</View>
+			</TitleControl>
+			<ImageView id="logoimage"/>
+			<Label id="street_food"/>
+			<Button id="mapmyfood"/>
+			<Label id="lbl_or"/>
+			<TextField id="bottom_search_postalcode"/>
+			<Button id="bottom_search"/>
+		</Window>
+	</NavigationWindow>
+</Alloy>
